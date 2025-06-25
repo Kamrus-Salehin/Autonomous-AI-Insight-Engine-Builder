@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 ```
-3. Access Swagger UI for the FastAPI project locally, open any browser and go to:
+3. Access Swagger UI at:
 ```bash
 http://localhost:8000/docs  # 8000 is the port number
 ```
