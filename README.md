@@ -21,6 +21,11 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+## Environment Setup
+Before running the app, create a `.env` file in the root directory:
+```bash
+api_key='your_google_api_key_here'
+```
 
 ## Usage
 1. Add `.txt` files to the `./data` directory.
