@@ -29,10 +29,12 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 3. Access Swagger UI for the FastAPI project locally, open any browser and go to:
-`http://localhost:8000/docs  # 8000 is the port number`
-4. Scroll to the `POST /query` section and expand it by clicking on it.
-5. Click the `Try it out` button on the right.
-6. In the `request body` area, replace the example text with something like:
+```bash
+http://localhost:8000/docs  # 8000 is the port number`
+```
+5. Scroll to the `POST /query` section and expand it by clicking on it.
+6. Click the `Try it out` button on the right.
+7. In the `request body` area, replace the example text with something like:
 ```json
 {
   "query": "What's the length of the Nile River?"
