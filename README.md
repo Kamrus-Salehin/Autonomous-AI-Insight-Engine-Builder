@@ -37,9 +37,9 @@ uvicorn main:app --reload
 ```bash
 http://localhost:8000/docs  # 8000 is the port number
 ```
-5. Scroll to the `POST /query` section and expand it by clicking on it.
-6. Click the `Try it out` button on the right.
-7. In the `request body` area, replace the example text with something like:
+4. Scroll to the `POST /query` section and expand it by clicking on it.
+5. Click the `Try it out` button on the right.
+6. In the `request body` area, replace the example text with something like:
 ```json
 {
   "query": "What's the length of the Nile River?"
