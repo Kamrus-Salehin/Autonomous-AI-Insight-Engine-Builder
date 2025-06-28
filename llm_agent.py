@@ -21,7 +21,7 @@ Answer:
 
 def get_qa_chain(vectorstore):
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash",
+        model="gemini-2.5-flash",
         google_api_key=os.environ["api_key"],
         temperature=0.1
     )
