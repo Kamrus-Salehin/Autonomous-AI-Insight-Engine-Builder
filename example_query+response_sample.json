@@ -1,6 +1,6 @@
 {
   "query": "What are the stages of water cycle?",
-  "answer": "The stages of the water cycle are:\n*   Evaporation: Water changes from liquid to gas and rises into the atmosphere.\n*   Transpiration: Water vapor is released from plants' leaves.\n*   Sublimation: Ice or snow changes directly into water vapor.\n*   Condensation: Water vapor cools and changes back into liquid droplets or ice crystals, forming clouds.\n*   Precipitation: Water droplets or ice crystals fall back to Earth as rain, snow, sleet, or hail.\n*   Collection/Accumulation: Water collects in oceans, lakes, rivers, groundwater, runoff, ice caps, and glaciers.",
+  "answer": "The stages of the water cycle are:\n\n*   **Evaporation:** Water changes from liquid to gas and rises into the atmosphere, primarily from oceans, lakes, rivers, and soil.\n*   **Transpiration:** Water vapor is released from plants' leaves into the atmosphere.\n*   **Sublimation:** Ice or snow changes directly into water vapor without melting.\n*   **Condensation:** Water vapor cools and changes back into liquid water droplets or ice crystals, forming clouds.\n*   **Precipitation:** Water droplets or ice crystals fall back to Earth as rain, snow, sleet, or hail.\n*   **Collection/Accumulation:** Precipitation gathers in oceans, lakes, rivers, as groundwater, runoff, or as ice in ice caps and glaciers.",
   "sources": [
     "doc_03.txt",
     "doc_07.txt",
