@@ -1,5 +1,5 @@
 python-dotenv==1.1.0
-langchain-google-genai==2.1.5
+langchain_cohere==0.3.5
 langchain-community==0.3.25
 langchain-huggingface==0.3.0
 sentence-transformers==4.1.0
