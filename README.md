@@ -1,10 +1,10 @@
-This project is a FastAPI-based Question Answering (QA) system that uses LangChain's `RetrievalQA` with Google Gemini (via `langchain_google_genai`) and a FAISS vectorstore for semantic document retrieval.
+This project is a FastAPI-based Question Answering (QA) system that uses LangChain's `RetrievalQA` with Cohere (via `langchain_cohere`) and a FAISS vectorstore for semantic document retrieval.
 
 ## Features
 - Loads `.txt` documents from `./data`
 - Creates or loads a local FAISS vectorstore with HuggingFace embeddings
 - Serves a FastAPI endpoint to query document knowledge
-- Uses Gemini 2.0 Flash model for accurate and concise answers
+- Uses Cohere Chat API for accurate and concise answers
 
 ## Installation
 1. Clone the repository to the local machine and navigate to the project folder:
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ## Environment Setup
 Before running the app, create a `.env` file in the root directory:
 ```bash
-api_key='your_google_api_key_here'
+COHERE_API_KEY='your_COHERE_API_KEY_here'
 ```
 
 ## Usage
