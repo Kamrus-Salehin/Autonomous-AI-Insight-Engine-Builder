@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from langchain.chains import RetrievalQA
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_cohere import ChatCohere
 from langchain.prompts import PromptTemplate
 
 load_dotenv()
@@ -20,10 +20,8 @@ Answer:
 """)
 
 def get_qa_chain(vectorstore):
-    llm = ChatGoogleGenerativeAI(
-        model="gemini-2.5-flash",
-        google_api_key=os.environ["api_key"],
-        temperature=0.1
+    llm = ChatCohere(
+        COHERE_API_KEY=os.environ["COHERE_API_KEY"]
     )
     
     return RetrievalQA.from_chain_type(
